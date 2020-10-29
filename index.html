@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>AI Assignment - Agent</title>
+
+        <style>
+            div {
+                margin-bottom: 1rem;
+            }
+
+            table {
+                border: 1px solid black;
+                text-align: center;
+            }
+
+            th, td {
+                padding: 0.5rem 1rem;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <h2>AI Agent</h2>
+            <input type="file" id="file-input">
+        </div>
+
+        <div>
+            <img src="#" alt="Image" id="image" style="max-height: 400px;">
+        </div>
+
+        <div id="results">
+            <div id="result-text"></div>
+            <table id="table"></table>
+        </div>
+
+        <script src="https://unpkg.com/ml5@0.5.0/dist/ml5.min.js"></script>
+        <script src="agent.js"></script>
+    </body>
+</html>

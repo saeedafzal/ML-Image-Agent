@@ -6,6 +6,14 @@ const models = [
         "first": true
     },
     {
+        "name": "With/Without Headwear",
+        "model": "https://teachablemachine.withgoogle.com/models/b_xJa7kL1/model.json"
+    },
+    {
+        "name": "With/Without Glasses",
+        "model": "https://teachablemachine.withgoogle.com/models/WwS0KEry5/model.json"
+    },
+    {
         "name": "MobileNet",
         "model": "MobileNet"
     }

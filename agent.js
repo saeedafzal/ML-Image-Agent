@@ -2,16 +2,16 @@
 const models = [
     {
         "name": "Male / Female",
-        "model": "https://teachablemachine.withgoogle.com/models/Vsqm0_v-a/model.json",
+        "model": "https://storage.googleapis.com/tm-model/Vsqm0_v-a/model.json",
         "first": true
     },
     {
         "name": "With/Without Headwear",
-        "model": "https://teachablemachine.withgoogle.com/models/b_xJa7kL1/model.json"
+        "model": "https://storage.googleapis.com/tm-model/b_xJa7kL1/model.json"
     },
     {
         "name": "With/Without Glasses",
-        "model": "https://teachablemachine.withgoogle.com/models/WwS0KEry5/model.json"
+        "model": "https://storage.googleapis.com/tm-model/WwS0KEry5/model.json"
     },
     {
         "name": "MobileNet",
